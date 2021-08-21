@@ -1,0 +1,104 @@
+html {
+  background-color: white;
+  min-height: 100%;
+  min-width: 100%;
+  border: 5px green;
+  border-style: outset;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+  border: 5px red solid;
+  border-radius: 20px;
+  padding: 0px 50px 0px 50px;
+  text-align: center;
+  background-color: black;
+}
+.left {
+  font-weight: bolder;
+  font-style: italic;
+  border: 5px solid red;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.navbar {
+  font-weight: bolder;
+  font-style: italic;
+  border: 5px solid red;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  max-height: 40px;
+  min-width: 250px;
+  padding-right: 10px;
+  padding-left: 10px;
+  word-spacing: 10px;
+}
+.navbar span {
+  word-spacing: 0px;
+}
+.second {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.round {
+  border: solid 5px rgb(114, 116, 114);
+  background-color: rgb(47, 226, 194);
+  border-radius: 50%;
+  text-align: center;
+  height: 270px;
+  width: 270px;
+}
+.form {
+  border: 5px red dashed;
+  text-align: center;
+  color: rgb(238, 133, 133);
+}
+h2 {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: rgba(256, 0, 0, 0.4);
+}
+.menu {
+  background-color: black;
+  color: white;
+  border: solid 5px red;
+  border-radius: 20px;
+  max-width: 200px;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sublist h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+.sublist {
+  border: 5px solid green;
+  border-radius: 20px;
+  color: purple;
+  background-color: aqua;
+  margin: 30px;
+  min-width: 300px;
+}
+
+.sublist li {
+  padding-left: 50px;
+  padding-right: 10px;
+  text-align: center;
+}
